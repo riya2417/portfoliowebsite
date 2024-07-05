@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Copatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Riya Dongre - Web Developer</title>
+        <link rel="stylesheet" href="styles.css">
+       
+    </head>
+    <body>
+        <div class="container">
+            <div class="sidebar">
+            
+                <nav>
+                    <ul>
+                       <li><a href="/">Home</a></li>
+                       <li><a href="/intro.html">My Intro</a></li>
+                       <li><a href="/projects.html">Projects</a></li>
+                        <li><a href="/skills.html">Skills </a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                     </ul>
+                </nav>
+            </div>
+            <div class="main">
+                <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section class="projects-section">
+    <h2>Projects</h2>
+
+    <div class="projects-container">
+      <div class="project-box">
+        <img src="email-sender-project.png" alt="Email Sender Project">
+        <h3>Email Sender Project</h3>
+        <p>Developed an email sender application using Django REST Framework (DRF), JavaScript, HTML, and CSS. This project demonstrates my ability to build functional web applications with back-end and front-end development skills.</p>
+        <a href="#" class="project-link">View Project</a>
+      </div>
+
+      <div class="project-box">
+        <img src="tic-tac-toe-game.png" alt="Tic Tac Toe Game">
+        <h3>Tic Tac Toe Game</h3>
+        <p>Created a classic Tic Tac Toe game using Python. This project showcases my programming skills and problem-solving abilities.</p>
+        <a href="#" class="project-link">View Project</a>
+      </div>
+
+      </div>
+      <div class="project-filters">
+        <button class="filter-button" data-filter="all">All</button>
+        <button class="filter-button" data-filter="django">Django</button>
+        <button class="filter-button" data-filter="python">Python</button>
+      </div>
+      
+      <script>
+        const projectBoxes = document.querySelectorAll('.project-box');
+        const filterButtons = document.querySelectorAll('.filter-button');
+      
+        filterButtons.forEach(button => {
+          button.addEventListener('click', () => {
+            const filter = button.dataset.filter;
+      
+            projectBoxes.forEach(box => {
+              if (filter === 'all' || box.classList.contains(filter)) {
+                box.style.display = 'block';
+              } else {
+                box.style.display = 'none';
+              }
+            });
+          });
+        });
+      </script>
+  </section>
+
+</body>
+</html>
+            </div>
+        </div>
+
+    </body> 
+ </html>
+
